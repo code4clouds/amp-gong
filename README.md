@@ -1,6 +1,16 @@
 # amp-gong
 Azure Marketplace Automated Achievement Gong
 
+## Hardware
+
+- Raspberry 4
+- Waveshare Raspberry Relay
+
+## Azure Services
+
+- Service Queue
+- Logic Apps
+
 ## Installation
 
 ``` bash
