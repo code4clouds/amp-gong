@@ -1,8 +1,8 @@
 #!/usr/python3
 
 import time, sys, os
-from azure.servicebus import QueueClient, Message
 import RPi.GPIO as GPIO
+from azure.servicebus import QueueClient, Message
 
 
 # Create the QueueClient
@@ -25,6 +25,7 @@ Relay_Ch1 = 26
 Relay_Ch2 = 20
 Relay_Ch3 = 21
 
+# Setup Modes
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 
