@@ -4,8 +4,10 @@ Azure Marketplace Automated Achievement Gong
 ## Installation
 
 ``` bash
-chmod +x setup.sh
-sudo ./setup.sh
+apt-get install -y python3 python3-pip azure-servicebus
+pip3 install -r requirements.txt
+chmod +x start.sh
+chmod +x cron.sh
 ```
 
 ## Execution
