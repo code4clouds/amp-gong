@@ -13,21 +13,18 @@ chmod +x cron.sh
 ## Execution
 
 ``` bash
-chmod +x start.sh
 ./start.sh
 ```
 
 ## Upgrades
 
 ```
-chmod +x ./upgrade.sh
-./upgrade.sh
+sh ./upgrade.sh
 ```
 
 ## Onboot
 
 ```
-chmod +x cron.sh
 crontab -e
 ```
 
