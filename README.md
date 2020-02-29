@@ -19,7 +19,7 @@ chmod +x cron.sh
 ## Upgrades
 
 ```
-sh ./upgrade.sh
+sh upgrade.sh
 ```
 
 ## Onboot
