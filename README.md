@@ -21,6 +21,15 @@ chmod +x start.sh
 chmod +x cron.sh
 ```
 
+## Setup
+
+```
+cat >> .env
+QUEUE_NAME=queue_name_here
+QUEUE_CONNECTION_STRING=connection_string_here
+EOF
+```
+
 ## Execution
 
 ``` bash
